@@ -6,10 +6,74 @@
     <meta name="description" content="Join RAJA GAMES for skill-based gaming fun. Learn about Rummy, Teen Patti, and get exclusive updates via our WhatsApp Channel.">
     <title>RAJA GAMES - Skill-Based Gaming Platform</title>
     <link rel="stylesheet" href="style.css">
+
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "name": "RAJA GAMES - Skill-Based Gaming Platform",
+          "description": "Join RAJA GAMES for skill-based gaming fun. Learn about Rummy, Teen Patti, and get exclusive updates via our WhatsApp Channel.",
+          "publisher": {
+            "@type": "Organization",
+            "name": "RAJA GAMES",
+            "url": "https://www.rajagames.fun",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "raja games log.webp"
+            }
+          },
+          "mainEntity": {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "How do I join RAJA GAMES?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "You can join RAJA GAMES by visiting our WhatsApp Channel and registering on the platform."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Are the games on RAJA GAMES legal?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, RAJA GAMES focuses on skill-based games, which are legal in certain regions. Please check your local laws."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What types of games does RAJA GAMES offer?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "RAJA GAMES offers exciting skill-based games like Rummy, Teen Patti, and more."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can I play RAJA GAMES in my region?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Skill-based games are legal in certain regions. Please check your local laws before registering."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is my personal data safe on RAJA GAMES?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, RAJA GAMES follows strict privacy practices to protect user data as outlined in our Privacy Policy."
+                }
+              }
+            ]
+          }
+        }
+        </script>
+        
 </head>
 <body>
     <header>
-        <img src="raja games(1)(1).png" alt="RAJA GAMES Logo">
+        <img src="raja games logo.webp" alt="RAJA GAMES Logo">
         <p class="header-p">Explore Skill-Based Games Like Rummy and Teen Patti</p>
     </header>
 
@@ -73,36 +137,6 @@
 
 
     </footer>
-    <script>
-const termsLinks = document.querySelectorAll('a[href="#terms-section"]');
-const privacyLinks = document.querySelectorAll('a[href="#privacy-section"]');
-const termsSection = document.getElementById('terms-section');
-const privacySection = document.getElementById('privacy-section');
-
-// Function to toggle section visibility and scroll into view
-function toggleSection(section) {
-    section.classList.toggle('open'); // Toggle visibility
-    setTimeout(() => {
-        section.scrollIntoView({ behavior: 'smooth' }); // Scroll after toggling
-    }, 200); // Wait for transition to begin
-}
-
-// Attach event listeners to all Terms links
-termsLinks.forEach((link) => {
-    link.addEventListener('click', (e) => {
-        e.preventDefault();
-        toggleSection(termsSection);
-    });
-});
-
-// Attach event listeners to all Privacy links
-privacyLinks.forEach((link) => {
-    link.addEventListener('click', (e) => {
-        e.preventDefault();
-        toggleSection(privacySection);
-    });
-});
-
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
