@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Join RAJA GAMES for skill-based gaming fun. Learn about Rummy, Teen Patti, and get exclusive updates via our WhatsApp Channel.">
+    <title>RAJA GAMES - Skill-Based Gaming Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="raja games(1)(1).png" alt="RAJA GAMES Logo">
+        <p style="    color: white;">Explore Skill-Based Games Like Rummy and Teen Patti</p>
+    </header>
+
+    <div class="container">
+        <h1>Discover the Thrill of Skill-Based Gaming</h1>
+        <p style="    color: white;">RAJA GAMES brings you the most exciting skill-based games, such as Rummy and Teen Patti, where strategy meets fun. Enjoy a secure gaming experience and win rewards legally.</p>
+
+        <h2>Why Choose RAJA GAMES?</h2>
+        <ul>
+            <li>Legal and secure skill-based gaming platform.</li>
+            <li>Exclusive bonuses and rewards for members.</li>
+            <li>Fun and engaging games like Rummy and Teen Patti.</li>
+        </ul>
+        <div class="cta">
+            <a href="https://whatsapp.com/channel/0029VawYzzy23n3leWsoJq1x" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Icon">
+                Join Our WhatsApp Channel
+            </a>
+            <p style="font-size: 14px; color: #ccc; text-align: center; margin-top: 10px;">
+                Available in regions where skill-based games are permitted. Check local laws before playing.
+            </p>
+            <!-- Add the consent message below -->
+            <p style="font-size: 14px; color: #ccc; text-align: center; margin-top: 5px;">
+                By joining, you agree to our<a href="#terms-section" style="color: yellow; background: none; animation: none;        padding: 5px; font-size: 12px; line-height: 1px;">Terms & Conditions</a>and<a href="#privacy-section" style="color: yellow; background: none; animation: none;padding: 5px; font-size: 12px;line-height: 1px;">Privacy Policy</a>
+            </p>
+        </div>
+        
+
+        <h2>How It Works</h2>
+        <ul>
+            <li><strong>Step 1:</strong> Join our WhatsApp Channel to get tips and registration links.</li>
+            <li><strong>Step 2:</strong> Register on RAJA GAMES in seconds.</li>
+            <li><strong>Step 3:</strong> Start playing your favorite skill-based games and earn rewards!</li>
+        </ul>
+    </div>
+
+    <footer>
+        <p style="    color: white;">Skill-based games are legal in certain regions. Please check your local laws before playing.</p>
+        <a href="#terms-section">View Terms & Conditions</a> | 
+        <a href="#privacy-section">View Privacy Policy</a>
+        <div id="terms-section" class="policy-section">
+            <h2>Terms & Conditions</h2>
+            <p style="    color: white;">Welcome to RAJA GAMES. By accessing our platform, you agree to the following terms and conditions:</p>
+            <ol>
+                <li><strong>User Responsibility:</strong> Users must ensure they are legally permitted to access and use skill-based games in their region.</li>
+                <li><strong>Prohibited Activities:</strong> Users may not use the platform for fraudulent activities or violate any local, national, or international laws.</li>
+                <li><strong>Liability Disclaimer:</strong> RAJA GAMES is not responsible for losses or damages incurred during gameplay or by misuse of the platform.</li>
+            </ol>
+        </div>
+        <div id="privacy-section" class="policy-section">
+            <h2>Privacy Policy</h2>
+            <p style="    color: white;">At RAJA GAMES, we are committed to protecting your privacy. This policy explains how we collect, use, and store your personal data.</p>
+            <h3>1. Data Collection</h3>
+            <p style="    color: white;">We may collect the following data:</p>
+            <ul>
+                <li>Information you provide when joining our WhatsApp Channel or registering on RAJA GAMES (e.g., name, contact information).</li>
+                <li>Browser and device information for improving our website experience.</li>
+            </ul>
+        </div>
+    </footer>
+
+
+    </footer>
+    <script>
+const termsLinks = document.querySelectorAll('a[href="#terms-section"]');
+const privacyLinks = document.querySelectorAll('a[href="#privacy-section"]');
+const termsSection = document.getElementById('terms-section');
+const privacySection = document.getElementById('privacy-section');
+
+// Function to toggle section visibility and scroll into view
+function toggleSection(section) {
+    section.classList.toggle('open'); // Toggle visibility
+    setTimeout(() => {
+        section.scrollIntoView({ behavior: 'smooth' }); // Scroll after toggling
+    }, 200); // Wait for transition to begin
+}
+
+// Attach event listeners to all Terms links
+termsLinks.forEach((link) => {
+    link.addEventListener('click', (e) => {
+        e.preventDefault();
+        toggleSection(termsSection);
+    });
+});
+
+// Attach event listeners to all Privacy links
+privacyLinks.forEach((link) => {
+    link.addEventListener('click', (e) => {
+        e.preventDefault();
+        toggleSection(privacySection);
+    });
+});
+
+    </script>
+</body>
+</html>
