@@ -6,7 +6,7 @@ body {
     color: #fff;
 }
 header {
-    background: blue;
+    background: rgb(182, 2, 2);
     color: rgb(255, 255, 255);
     text-align: center;
     padding-top: 15px;
@@ -20,7 +20,7 @@ header img {
 .container {
     max-width: 900px;
     margin: 20px auto;
-    background: #0058df;
+    background: #df0043;
     border-radius: 35px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
     padding: 20px;
@@ -67,7 +67,7 @@ ul li {
     align-items: center;
     justify-content: center;
     gap: 10px;
-    background: linear-gradient(to right, #01e720, #208307);
+    background: linear-gradient(to right, #e7e301, #ff9900);
     padding: 12px 25px;
     color: white;
     text-decoration: none;
@@ -82,7 +82,7 @@ ul li {
     height: 24px;
 }
 .cta a:hover {
-    background: linear-gradient(to right, #d32f2f, #b71c1c);
+    background: linear-gradient(to right, #1b0202, #4d0c0c);
     transform: scale(1.05);
     animation: none;
 }
@@ -117,7 +117,7 @@ ul li {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 footer {
-    background: #0058df;
+    background: rgb(182, 2, 2);
     text-align: center;
     padding: 15px;
     font-size: 14px;
@@ -139,6 +139,10 @@ max-height: 500px; /* Adjust based on content */
 opacity: 1;
 }
 @media (max-width: 768px) {
+
+    body{
+        line-height: 30px;
+    }
     h1, h2 {
         font-size: 16px;
     }
